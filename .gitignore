@@ -1,0 +1,27 @@
+# Dependencies
+frontend/node_modules/
+backend/venv/
+
+# Build / cache
+frontend/.next/
+backend/__pycache__/
+*.pyc
+*.pyo
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp uploads
+backend/temp_uploads/
