@@ -250,8 +250,8 @@ def _analyze_with_ollama(resume_text: str, job_title: str, sector: str, experien
             model=model_name,
             messages=[{"role": "user", "content": prompt}],
             options={
-                "num_ctx": 4096,
-                "num_predict": 2500,
+                "num_ctx": 8192,
+                "num_predict": 5000,
                 "temperature": 0.3,
                 "num_thread": 4,
                 "repeat_penalty": 1.1
