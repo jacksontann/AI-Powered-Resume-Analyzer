@@ -1,7 +1,6 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'standalone',
   webpack: (config, { isServer, webpack }) => {
     // Ignore canvas module completely using webpack's IgnorePlugin
     // This prevents webpack from trying to bundle the Node.js-only canvas package
